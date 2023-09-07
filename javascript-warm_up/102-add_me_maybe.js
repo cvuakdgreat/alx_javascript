@@ -3,3 +3,5 @@ function addMeMaybe(number, theFunction) {
 	return theFunction(x)
 	 
   };
+
+  module.exports.addMeMaybe = addMeMaybe;
