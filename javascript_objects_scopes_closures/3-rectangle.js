@@ -18,7 +18,7 @@ class Rectangle {
 				console.log("X")
 				
 			}
-			console.log("/n")
+			console.log("\n")
 			
 		}
 	}
