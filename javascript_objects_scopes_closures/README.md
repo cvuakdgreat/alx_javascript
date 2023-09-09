@@ -1,0 +1,1 @@
+Alx SWE JavaScript - Objects, Scopes and Closures
