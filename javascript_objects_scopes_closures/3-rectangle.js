@@ -16,10 +16,7 @@ class Rectangle {
 		for (let index = 0; index <= this.height; index++) {
 			for (let x = 0; x < this.width; x++) {
 				console.log("X")
-				
-			}
-			console.log("\n")
-			
+			}			
 		}
 	}
 };
