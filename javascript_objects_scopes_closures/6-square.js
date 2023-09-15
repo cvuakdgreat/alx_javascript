@@ -15,7 +15,7 @@ class Square extends BaseSquare {
 		super.rotate();
 	}
 
-	charPrint() {
+	charPrint(c) {
 		if (c === undefined) {
 			c = 'X';
 		  }
