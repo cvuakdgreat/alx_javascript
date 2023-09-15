@@ -3,9 +3,16 @@ const Rectangle = require('./4-rectangle');
 
 class Square extends Rectangle {
 	constructor(size) {
-		super(width, height)
-		size = this.width, this.height
+		super(size, size)
 		
+		
+	}
+	double(){
+		super.double();
+	}
+
+	rotate(){
+		super.rotate();
 	}
 
 	charPrint() {
@@ -14,8 +21,8 @@ class Square extends Rectangle {
 			console.log("C".repeat(c))
 		}
 		else
-		super.print()
-		console.log("X".repeat(X))
+			super.print()
+			console.log("X".repeat(X))
 
 	}
 }
