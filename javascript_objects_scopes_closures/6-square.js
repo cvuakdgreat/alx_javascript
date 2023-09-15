@@ -1,9 +1,9 @@
-const Square = require('./5-square');
+const BaseSquare = require('./5-square');
 
 
-class Square extends Rectangle {
+class Square extends BaseSquare {
 	constructor(size) {
-		super(size, size)
+		super(size)
 		
 		
 	}
@@ -16,13 +16,13 @@ class Square extends Rectangle {
 	}
 
 	charPrint() {
-		if (c) {
-			super.print()
-			console.log("C".repeat(c))
-		}
-		else
-			super.print()
-			console.log("X".repeat(X))
+		if (c === undefined) {
+			c = 'X';
+		  }
+	  
+		  for (let i = 0; i < this.height; i++) {
+			console.log(c.repeat(this.width));
+		  }
 
 	}
 }
